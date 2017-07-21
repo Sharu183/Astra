@@ -10,6 +10,7 @@ import process
 
 try:
     from Tkinter import *
+    from Tkinter import *
 except ImportError:
     from tkinter import *
 
@@ -85,7 +86,7 @@ class New_Toplevel_1:
         self.Radiobutton1.configure(justify=LEFT)
         self.Radiobutton1.configure(text='''DSTD1''')
         self.Radiobutton1.configure(command=commandword)
-        self.Radiobutton1.configure(value='4646')
+        self.Radiobutton1.configure(value='F820')
         self.Radiobutton1.configure(variable=v)
 
         self.Radiobutton2 = Radiobutton(top)
@@ -101,7 +102,7 @@ class New_Toplevel_1:
         self.Radiobutton2.configure(justify=LEFT)
         self.Radiobutton2.configure(text='''DSTD2''')
         self.Radiobutton2.configure(command=commandword)
-        self.Radiobutton2.configure(value='4647')
+        self.Radiobutton2.configure(value='F840')
         self.Radiobutton2.configure(variable=v)
 
         self.Radiobutton3 = Radiobutton(top)
@@ -117,7 +118,7 @@ class New_Toplevel_1:
         self.Radiobutton3.configure(justify=LEFT)
         self.Radiobutton3.configure(text='''DSTD3''')
         self.Radiobutton3.configure(command=commandword)
-        self.Radiobutton3.configure(value='4648')
+        self.Radiobutton3.configure(value='F860')
         self.Radiobutton3.configure(variable=v)
 
         self.Radiobutton4 = Radiobutton(top)
@@ -133,7 +134,7 @@ class New_Toplevel_1:
         self.Radiobutton4.configure(justify=LEFT)
         self.Radiobutton4.configure(text='''DSTD4''')
         self.Radiobutton4.configure(command=commandword)
-        self.Radiobutton4.configure(value='4649')
+        self.Radiobutton4.configure(value='F880')
         self.Radiobutton4.configure(variable=v)
 
         self.Radiobutton5 = Radiobutton(top)
@@ -149,7 +150,7 @@ class New_Toplevel_1:
         self.Radiobutton5.configure(justify=LEFT)
         self.Radiobutton5.configure(text='''LOTD''')
         self.Radiobutton5.configure(command=commandword)
-        self.Radiobutton5.configure(value='4650')
+        self.Radiobutton5.configure(value='F8A0')
         self.Radiobutton5.configure(variable=v)
 
         self.Radiobutton6 = Radiobutton(top)
@@ -163,9 +164,9 @@ class New_Toplevel_1:
         self.Radiobutton6.configure(highlightbackground="#d9d9d9")
         self.Radiobutton6.configure(highlightcolor="black")
         self.Radiobutton6.configure(justify=LEFT)
-        self.Radiobutton6.configure(text='''MSLP(TARGET)''')
+        self.Radiobutton6.configure(text='''HMDS_TD-STN''')
         self.Radiobutton6.configure(command=commandword)
-        self.Radiobutton6.configure(value='4651')
+        self.Radiobutton6.configure(value='F8C0')
         self.Radiobutton6.configure(variable=v)
 
         self.Radiobutton7 = Radiobutton(top)
@@ -179,9 +180,9 @@ class New_Toplevel_1:
         self.Radiobutton7.configure(highlightbackground="#d9d9d9")
         self.Radiobutton7.configure(highlightcolor="black")
         self.Radiobutton7.configure(justify=LEFT)
-        self.Radiobutton7.configure(text='''HDMS(TARGET)''')
+        self.Radiobutton7.configure(text='''MSLP_RT7''')
         self.Radiobutton7.configure(command=commandword)
-        self.Radiobutton7.configure(value='4652')
+        self.Radiobutton7.configure(value='3C20')
         self.Radiobutton7.configure(variable=v)
 
         self.Radiobutton8 = Radiobutton(top)
@@ -195,9 +196,9 @@ class New_Toplevel_1:
         self.Radiobutton8.configure(highlightbackground="#d9d9d9")
         self.Radiobutton8.configure(highlightcolor="black")
         self.Radiobutton8.configure(justify=LEFT)
-        self.Radiobutton8.configure(text='''DL_SELE(DATA)''')
+        self.Radiobutton8.configure(text='''MSLP_RT8''')
         self.Radiobutton8.configure(command=commandword)
-        self.Radiobutton8.configure(value='4653')
+        self.Radiobutton8.configure(value='4420')
         self.Radiobutton8.configure(variable=v)
 
         self.Radiobutton9 = Radiobutton(top)
@@ -211,9 +212,9 @@ class New_Toplevel_1:
         self.Radiobutton9.configure(highlightbackground="#d9d9d9")
         self.Radiobutton9.configure(highlightcolor="black")
         self.Radiobutton9.configure(justify=LEFT)
-        self.Radiobutton9.configure(text='''ACK''')
+        self.Radiobutton9.configure(text='''MSLP_RT9''')
         self.Radiobutton9.configure(command=commandword)
-        self.Radiobutton9.configure(value='4654')
+        self.Radiobutton9.configure(value='4C20')
         self.Radiobutton9.configure(variable=v)
 
         self.Radiobutton10 = Radiobutton(top)
@@ -227,9 +228,9 @@ class New_Toplevel_1:
         self.Radiobutton10.configure(highlightbackground="#d9d9d9")
         self.Radiobutton10.configure(highlightcolor="black")
         self.Radiobutton10.configure(justify=LEFT)
-        self.Radiobutton10.configure(text='''COMMAND10''')
+        self.Radiobutton10.configure(text='''MSLP_RT10''')
         self.Radiobutton10.configure(command=commandword)
-        self.Radiobutton10.configure(value='4655')
+        self.Radiobutton10.configure(value='5420')
         self.Radiobutton10.configure(variable=v)
 
         self.Radiobutton11 = Radiobutton(top)
@@ -243,9 +244,9 @@ class New_Toplevel_1:
         self.Radiobutton11.configure(highlightbackground="#d9d9d9")
         self.Radiobutton11.configure(highlightcolor="black")
         self.Radiobutton11.configure(justify=LEFT)
-        self.Radiobutton11.configure(text='''COMMAND11''')
+        self.Radiobutton11.configure(text='''DL_SKR_FREQ_STN7''')
         self.Radiobutton11.configure(command=commandword)
-        self.Radiobutton11.configure(value='4656')
+        self.Radiobutton11.configure(value='38E5')
         self.Radiobutton11.configure(variable=v)
 
         self.Radiobutton12 = Radiobutton(top)
@@ -259,9 +260,9 @@ class New_Toplevel_1:
         self.Radiobutton12.configure(highlightbackground="#d9d9d9")
         self.Radiobutton12.configure(highlightcolor="black")
         self.Radiobutton12.configure(justify=LEFT)
-        self.Radiobutton12.configure(text='''COMMAND12''')
+        self.Radiobutton12.configure(text='''DL_SKR_FREQ_STN8''')
         self.Radiobutton12.configure(command=commandword)
-        self.Radiobutton12.configure(value='4657')
+        self.Radiobutton12.configure(value='40E5')
         self.Radiobutton12.configure(variable=v)
 
         self.Radiobutton13 = Radiobutton(top)
@@ -275,9 +276,9 @@ class New_Toplevel_1:
         self.Radiobutton13.configure(highlightbackground="#d9d9d9")
         self.Radiobutton13.configure(highlightcolor="black")
         self.Radiobutton13.configure(justify=LEFT)
-        self.Radiobutton13.configure(text='''COMMAND13''')
+        self.Radiobutton13.configure(text='''DL_SKR_FREQ_STN9''')
         self.Radiobutton13.configure(command=commandword)
-        self.Radiobutton13.configure(value='4658')
+        self.Radiobutton13.configure(value='48E5')
         self.Radiobutton13.configure(variable=v)
 
         self.Radiobutton14 = Radiobutton(top)
@@ -291,9 +292,9 @@ class New_Toplevel_1:
         self.Radiobutton14.configure(highlightbackground="#d9d9d9")
         self.Radiobutton14.configure(highlightcolor="black")
         self.Radiobutton14.configure(justify=LEFT)
-        self.Radiobutton14.configure(text='''COMMAND14''')
+        self.Radiobutton14.configure(text='''DL_SKR_FREQ_STN10''')
         self.Radiobutton14.configure(command=commandword)
-        self.Radiobutton14.configure(value='4659')
+        self.Radiobutton14.configure(value='50E5')
         self.Radiobutton14.configure(variable=v)
 
         self.Radiobutton15 = Radiobutton(top)
@@ -307,9 +308,9 @@ class New_Toplevel_1:
         self.Radiobutton15.configure(highlightbackground="#d9d9d9")
         self.Radiobutton15.configure(highlightcolor="black")
         self.Radiobutton15.configure(justify=LEFT)
-        self.Radiobutton15.configure(text='''COMMAND15''')
+        self.Radiobutton15.configure(text='''TD_RT7''')
         self.Radiobutton15.configure(command=commandword)
-        self.Radiobutton15.configure(value='4660')
+        self.Radiobutton15.configure(value='3C40')
         self.Radiobutton15.configure(variable=v)
 
         self.Radiobutton16 = Radiobutton(top)
@@ -323,12 +324,12 @@ class New_Toplevel_1:
         self.Radiobutton16.configure(highlightbackground="#d9d9d9")
         self.Radiobutton16.configure(highlightcolor="black")
         self.Radiobutton16.configure(justify=LEFT)
-        self.Radiobutton16.configure(text='''COMMAND15''')
+        self.Radiobutton16.configure(text='''TD_RT8''')
         self.Radiobutton16.configure(command=commandword)
-        self.Radiobutton16.configure(value='4660')
+        self.Radiobutton16.configure(value='4440')
         self.Radiobutton16.configure(variable=v)
 
-          self.Radiobutton17 = Radiobutton(top)
+        self.Radiobutton17 = Radiobutton(top)
         self.Radiobutton17.place(relx=0.75, rely=0.87, relheight=0.06
                                  , relwidth=0.17)
         self.Radiobutton17.configure(activebackground="#d9d9d9")
@@ -339,12 +340,12 @@ class New_Toplevel_1:
         self.Radiobutton17.configure(highlightbackground="#d9d9d9")
         self.Radiobutton17.configure(highlightcolor="black")
         self.Radiobutton17.configure(justify=LEFT)
-        self.Radiobutton17.configure(text='''COMMAND15''')
+        self.Radiobutton17.configure(text='''TD_RT9''')
         self.Radiobutton17.configure(command=commandword)
-        self.Radiobutton17.configure(value='4660')
+        self.Radiobutton17.configure(value='4C40')
         self.Radiobutton17.configure(variable=v)
 
-          self.Radiobutton18 = Radiobutton(top)
+        self.Radiobutton18 = Radiobutton(top)
         self.Radiobutton18.place(relx=0.75, rely=0.87, relheight=0.06
                                  , relwidth=0.17)
         self.Radiobutton18.configure(activebackground="#d9d9d9")
@@ -355,12 +356,12 @@ class New_Toplevel_1:
         self.Radiobutton18.configure(highlightbackground="#d9d9d9")
         self.Radiobutton18.configure(highlightcolor="black")
         self.Radiobutton18.configure(justify=LEFT)
-        self.Radiobutton18.configure(text='''COMMAND15''')
+        self.Radiobutton18.configure(text='''TD_RT10''')
         self.Radiobutton18.configure(command=commandword)
-        self.Radiobutton18.configure(value='4660')
+        self.Radiobutton18.configure(value='5450')
         self.Radiobutton18.configure(variable=v)
 
-          self.Radiobutton19 = Radiobutton(top)
+        self.Radiobutton19 = Radiobutton(top)
         self.Radiobutton19.place(relx=0.75, rely=0.87, relheight=0.06
                                  , relwidth=0.17)
         self.Radiobutton19.configure(activebackground="#d9d9d9")
@@ -371,12 +372,12 @@ class New_Toplevel_1:
         self.Radiobutton19.configure(highlightbackground="#d9d9d9")
         self.Radiobutton19.configure(highlightcolor="black")
         self.Radiobutton19.configure(justify=LEFT)
-        self.Radiobutton19.configure(text='''COMMAND15''')
+        self.Radiobutton19.configure(text='''DL_SKR_FREQ_ACQ_STN7''')
         self.Radiobutton19.configure(command=commandword)
-        self.Radiobutton19.configure(value='4660')
+        self.Radiobutton19.configure(value='3C65')
         self.Radiobutton19.configure(variable=v)
 
-          self.Radiobutton20 = Radiobutton(top)
+        self.Radiobutton20 = Radiobutton(top)
         self.Radiobutton20.place(relx=0.75, rely=0.87, relheight=0.06
                                  , relwidth=0.17)
         self.Radiobutton20.configure(activebackground="#d9d9d9")
@@ -387,12 +388,12 @@ class New_Toplevel_1:
         self.Radiobutton20.configure(highlightbackground="#d9d9d9")
         self.Radiobutton20.configure(highlightcolor="black")
         self.Radiobutton20.configure(justify=LEFT)
-        self.Radiobutton20.configure(text='''COMMAND15''')
+        self.Radiobutton20.configure(text='''DL_SKR_FREQ_ACQ_STN8''')
         self.Radiobutton20.configure(command=commandword)
-        self.Radiobutton20.configure(value='4660')
+        self.Radiobutton20.configure(value='4465')
         self.Radiobutton20.configure(variable=v)
 
-          self.Radiobutton21 = Radiobutton(top)
+        self.Radiobutton21 = Radiobutton(top)
         self.Radiobutton21.place(relx=0.75, rely=0.87, relheight=0.06
                                  , relwidth=0.17)
         self.Radiobutton21.configure(activebackground="#d9d9d9")
@@ -403,28 +404,42 @@ class New_Toplevel_1:
         self.Radiobutton21.configure(highlightbackground="#d9d9d9")
         self.Radiobutton21.configure(highlightcolor="black")
         self.Radiobutton21.configure(justify=LEFT)
-        self.Radiobutton21.configure(text='''COMMAND15''')
+        self.Radiobutton21.configure(text='''DL_SKR_FREQ_ACQ_STN9''')
         self.Radiobutton21.configure(command=commandword)
-        self.Radiobutton21.configure(value='4660')
+        self.Radiobutton21.configure(value='4C65')
         self.Radiobutton21.configure(variable=v)
 
-          self.Radiobutton24 = Radiobutton(top)
-        self.Radiobutton24.place(relx=0.75, rely=0.87, relheight=0.06
+        self.Radiobutton22 = Radiobutton(top)
+        self.Radiobutton22.place(relx=0.75, rely=0.87, relheight=0.06
                                  , relwidth=0.17)
-        self.Radiobutton24.configure(activebackground="#d9d9d9")
-        self.Radiobutton24.configure(activeforeground="#000000")
-        self.Radiobutton24.configure(background="#d9d9d9")
-        self.Radiobutton24.configure(disabledforeground="#a3a3a3")
-        self.Radiobutton24.configure(foreground="#000000")
-        self.Radiobutton24.configure(highlightbackground="#d9d9d9")
-        self.Radiobutton24.configure(highlightcolor="black")
-        self.Radiobutton24.configure(justify=LEFT)
-        self.Radiobutton24.configure(text='''COMMAND15''')
-        self.Radiobutton24.configure(command=commandword)
-        self.Radiobutton24.configure(value='4660')
-        self.Radiobutton24.configure(variable=v)
+        self.Radiobutton22.configure(activebackground="#d9d9d9")
+        self.Radiobutton22.configure(activeforeground="#000000")
+        self.Radiobutton22.configure(background="#d9d9d9")
+        self.Radiobutton22.configure(disabledforeground="#a3a3a3")
+        self.Radiobutton22.configure(foreground="#000000")
+        self.Radiobutton22.configure(highlightbackground="#d9d9d9")
+        self.Radiobutton22.configure(highlightcolor="black")
+        self.Radiobutton22.configure(justify=LEFT)
+        self.Radiobutton22.configure(text='''DL_SKR_FREQ_ACQ_STN10''')
+        self.Radiobutton22.configure(command=commandword)
+        self.Radiobutton22.configure(value='5465')
+        self.Radiobutton22.configure(variable=v)
 
-        
+        self.Radiobutton23 = Radiobutton(top)
+        self.Radiobutton23.place(relx=0.75, rely=0.87, relheight=0.06
+                         , relwidth=0.17)
+        self.Radiobutton23.configure(activebackground="#d9d9d9")
+        self.Radiobutton23.configure(activeforeground="#000000")
+        self.Radiobutton23.configure(background="#d9d9d9")
+        self.Radiobutton23.configure(disabledforeground="#a3a3a3")
+        self.Radiobutton23.configure(foreground="#000000")
+        self.Radiobutton23.configure(highlightbackground="#d9d9d9")
+        self.Radiobutton23.configure(highlightcolor="black")
+        self.Radiobutton23.configure(justify=LEFT)
+        self.Radiobutton23.configure(text='''LVRARM''')
+        self.Radiobutton23.configure(command=commandword)
+        self.Radiobutton23.configure(value='5204')
+        self.Radiobutton23.configure(variable=v)
 
 
 
