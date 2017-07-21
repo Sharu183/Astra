@@ -312,8 +312,124 @@ class New_Toplevel_1:
         self.Radiobutton15.configure(value='4660')
         self.Radiobutton15.configure(variable=v)
 
-if __name__ == '__main__':
+        self.Radiobutton16 = Radiobutton(top)
+        self.Radiobutton16.place(relx=0.75, rely=0.87, relheight=0.06
+                                 , relwidth=0.17)
+        self.Radiobutton16.configure(activebackground="#d9d9d9")
+        self.Radiobutton16.configure(activeforeground="#000000")
+        self.Radiobutton16.configure(background="#d9d9d9")
+        self.Radiobutton16.configure(disabledforeground="#a3a3a3")
+        self.Radiobutton16.configure(foreground="#000000")
+        self.Radiobutton16.configure(highlightbackground="#d9d9d9")
+        self.Radiobutton16.configure(highlightcolor="black")
+        self.Radiobutton16.configure(justify=LEFT)
+        self.Radiobutton16.configure(text='''COMMAND15''')
+        self.Radiobutton16.configure(command=commandword)
+        self.Radiobutton16.configure(value='4660')
+        self.Radiobutton16.configure(variable=v)
+
+          self.Radiobutton17 = Radiobutton(top)
+        self.Radiobutton17.place(relx=0.75, rely=0.87, relheight=0.06
+                                 , relwidth=0.17)
+        self.Radiobutton17.configure(activebackground="#d9d9d9")
+        self.Radiobutton17.configure(activeforeground="#000000")
+        self.Radiobutton17.configure(background="#d9d9d9")
+        self.Radiobutton17.configure(disabledforeground="#a3a3a3")
+        self.Radiobutton17.configure(foreground="#000000")
+        self.Radiobutton17.configure(highlightbackground="#d9d9d9")
+        self.Radiobutton17.configure(highlightcolor="black")
+        self.Radiobutton17.configure(justify=LEFT)
+        self.Radiobutton17.configure(text='''COMMAND15''')
+        self.Radiobutton17.configure(command=commandword)
+        self.Radiobutton17.configure(value='4660')
+        self.Radiobutton17.configure(variable=v)
+
+          self.Radiobutton18 = Radiobutton(top)
+        self.Radiobutton18.place(relx=0.75, rely=0.87, relheight=0.06
+                                 , relwidth=0.17)
+        self.Radiobutton18.configure(activebackground="#d9d9d9")
+        self.Radiobutton18.configure(activeforeground="#000000")
+        self.Radiobutton18.configure(background="#d9d9d9")
+        self.Radiobutton18.configure(disabledforeground="#a3a3a3")
+        self.Radiobutton18.configure(foreground="#000000")
+        self.Radiobutton18.configure(highlightbackground="#d9d9d9")
+        self.Radiobutton18.configure(highlightcolor="black")
+        self.Radiobutton18.configure(justify=LEFT)
+        self.Radiobutton18.configure(text='''COMMAND15''')
+        self.Radiobutton18.configure(command=commandword)
+        self.Radiobutton18.configure(value='4660')
+        self.Radiobutton18.configure(variable=v)
+
+          self.Radiobutton19 = Radiobutton(top)
+        self.Radiobutton19.place(relx=0.75, rely=0.87, relheight=0.06
+                                 , relwidth=0.17)
+        self.Radiobutton19.configure(activebackground="#d9d9d9")
+        self.Radiobutton19.configure(activeforeground="#000000")
+        self.Radiobutton19.configure(background="#d9d9d9")
+        self.Radiobutton19.configure(disabledforeground="#a3a3a3")
+        self.Radiobutton19.configure(foreground="#000000")
+        self.Radiobutton19.configure(highlightbackground="#d9d9d9")
+        self.Radiobutton19.configure(highlightcolor="black")
+        self.Radiobutton19.configure(justify=LEFT)
+        self.Radiobutton19.configure(text='''COMMAND15''')
+        self.Radiobutton19.configure(command=commandword)
+        self.Radiobutton19.configure(value='4660')
+        self.Radiobutton19.configure(variable=v)
+
+          self.Radiobutton20 = Radiobutton(top)
+        self.Radiobutton20.place(relx=0.75, rely=0.87, relheight=0.06
+                                 , relwidth=0.17)
+        self.Radiobutton20.configure(activebackground="#d9d9d9")
+        self.Radiobutton20.configure(activeforeground="#000000")
+        self.Radiobutton20.configure(background="#d9d9d9")
+        self.Radiobutton20.configure(disabledforeground="#a3a3a3")
+        self.Radiobutton20.configure(foreground="#000000")
+        self.Radiobutton20.configure(highlightbackground="#d9d9d9")
+        self.Radiobutton20.configure(highlightcolor="black")
+        self.Radiobutton20.configure(justify=LEFT)
+        self.Radiobutton20.configure(text='''COMMAND15''')
+        self.Radiobutton20.configure(command=commandword)
+        self.Radiobutton20.configure(value='4660')
+        self.Radiobutton20.configure(variable=v)
+
+          self.Radiobutton21 = Radiobutton(top)
+        self.Radiobutton21.place(relx=0.75, rely=0.87, relheight=0.06
+                                 , relwidth=0.17)
+        self.Radiobutton21.configure(activebackground="#d9d9d9")
+        self.Radiobutton21.configure(activeforeground="#000000")
+        self.Radiobutton21.configure(background="#d9d9d9")
+        self.Radiobutton21.configure(disabledforeground="#a3a3a3")
+        self.Radiobutton21.configure(foreground="#000000")
+        self.Radiobutton21.configure(highlightbackground="#d9d9d9")
+        self.Radiobutton21.configure(highlightcolor="black")
+        self.Radiobutton21.configure(justify=LEFT)
+        self.Radiobutton21.configure(text='''COMMAND15''')
+        self.Radiobutton21.configure(command=commandword)
+        self.Radiobutton21.configure(value='4660')
+        self.Radiobutton21.configure(variable=v)
+
+          self.Radiobutton24 = Radiobutton(top)
+        self.Radiobutton24.place(relx=0.75, rely=0.87, relheight=0.06
+                                 , relwidth=0.17)
+        self.Radiobutton24.configure(activebackground="#d9d9d9")
+        self.Radiobutton24.configure(activeforeground="#000000")
+        self.Radiobutton24.configure(background="#d9d9d9")
+        self.Radiobutton24.configure(disabledforeground="#a3a3a3")
+        self.Radiobutton24.configure(foreground="#000000")
+        self.Radiobutton24.configure(highlightbackground="#d9d9d9")
+        self.Radiobutton24.configure(highlightcolor="black")
+        self.Radiobutton24.configure(justify=LEFT)
+        self.Radiobutton24.configure(text='''COMMAND15''')
+        self.Radiobutton24.configure(command=commandword)
+        self.Radiobutton24.configure(value='4660')
+        self.Radiobutton24.configure(variable=v)
+
+        
+
+
+
+if __name__ == '__main__':      
     vp_start_gui()
-
-
-
+        
+        
+        
