@@ -4,7 +4,11 @@
 # In conjunction with Tcl version 8.6
 #    Jun 30, 2017 01:24:53 PM
 import sys
+
+sys.path.insert(0,sys.path[0]+'\\app1')
 import app1
+
+
 from tkinter import filedialog
 try:
     from Tkinter import *
