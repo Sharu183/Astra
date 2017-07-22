@@ -358,7 +358,7 @@ class New_Toplevel_1:
         self.Radiobutton18.configure(justify=LEFT)
         self.Radiobutton18.configure(text='''TD_RT10''')
         self.Radiobutton18.configure(command=commandword)
-        self.Radiobutton18.configure(value='5450')
+        self.Radiobutton18.configure(value='5440')
         self.Radiobutton18.configure(variable=v)
 
         self.Radiobutton19 = Radiobutton(top)
