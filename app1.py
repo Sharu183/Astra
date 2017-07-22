@@ -71,7 +71,7 @@ class New_Toplevel_1:
             #app1report.create_New_Toplevel_1(Tk(),commandword)
             os.startfile(os.getcwd()+"\\data\\report_"+str(commandword)+".dat")
 
-        v = IntVar()
+        v = StringVar()
 
         self.Radiobutton1 = Radiobutton(top)
         self.Radiobutton1.place(relx=0.12, rely=0.09, relheight=0.06
