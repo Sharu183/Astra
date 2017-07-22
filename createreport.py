@@ -116,7 +116,7 @@ def report(list,commandword):
                         file.write(("%0s" % str(convertcmdwrd17.convertword(count, temp)) + "   "))
                     else:
                         file.write(("%20s" % str(convertcmdwrd17.convertword(count, temp)) + "   "))
-                elif (commandword == "5450"):
+                elif (commandword == "5440"):
                     if (count != 0):
                         file.write(("%0s" % str(convertcmdwrd18.convertword(count, temp)) + "   "))
                     else:
