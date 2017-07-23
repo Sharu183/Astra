@@ -6,10 +6,13 @@
 import sys
 from tkinter import messagebox
 
-sys.path.insert(0,sys.path[0]+'\\app2')
+sys.path.insert(0,sys.path[0]+'\\app3')
+import app3
+
+sys.path.insert(0,sys.path[1]+'\\app2')
 import app2
 
-sys.path.insert(1,sys.path[1]+'\\app1')
+sys.path.insert(2,sys.path[2]+'\\app1')
 import app1
 
 from tkinter import filedialog
