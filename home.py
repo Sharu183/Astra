@@ -4,14 +4,12 @@
 # In conjunction with Tcl version 8.6
 #    Jun 30, 2017 01:24:53 PM
 import sys
+from tkinter import messagebox
 
-sys.path.insert(0,sys.path[0]+'\\app3')
-import app3
-
-sys.path.insert(1,sys.path[1]+'\\app2')
+sys.path.insert(0,sys.path[0]+'\\app2')
 import app2
 
-sys.path.insert(2,sys.path[2]+'\\app1')
+sys.path.insert(1,sys.path[1]+'\\app1')
 import app1
 
 from tkinter import filedialog
@@ -63,31 +61,31 @@ def destroy_New_Toplevel_1():
     w.destroy()
     w = None
 
-def app1filename():
-    root.filename = filedialog.askopenfilename(initialdir="/", title="Select file",
-                                               filetypes=(("rep files", "*.rep"), ("all files", "*.*")))
-    if (root.filename != ""):
-        f=open("app1repname.txt","w+")
-        f.write(root.filename)
-        app1.create_New_Toplevel_1(root)
-
-def app2filename():
-    root.filename = filedialog.askopenfilename(initialdir="/", title="Select file",
-                                               filetypes=(("rep files", "*.rep"), ("all files", "*.*")))
-    if (root.filename != ""):
-        f = open("app2repname.txt", "w+")
-        f.write(root.filename)
-        app2.create_New_Toplevel_1(root)
-
-def app3filename():
-    root.filename = filedialog.askopenfilename(initialdir="/", title="Select file",
-                                               filetypes=(("rep files", "*.rep"), ("all files", "*.*")))
-    if (root.filename != ""):
-        f = open("app3repname.txt", "w+")
-        f.write(root.filename)
-        app3.create_New_Toplevel_1(root)
-
 class New_Toplevel_1:
+    def on_enter1(self,event):
+        messagebox.showinfo("AMLP-RC","Click OK to select the REP file for AMLP-RC.")
+        root.filename = filedialog.askopenfilename(initialdir="/", title="Select file",
+                                                   filetypes=(("rep files", "*.rep"), ("all files", "*.*")))
+        if (root.filename != ""):
+            f = open("app1repname.txt", "w+")
+            f.write(root.filename)
+            app1.create_New_Toplevel_1(root)
+    def on_enter2(self,event):
+        messagebox.showinfo("AMLP-OBC","Click OK to select the REP file for AMLP-OBC.")
+        root.filename = filedialog.askopenfilename(initialdir="/", title="Select file",
+                                                   filetypes=(("rep files", "*.rep"), ("all files", "*.*")))
+        if (root.filename != ""):
+            f = open("app2repname.txt", "w+")
+            f.write(root.filename)
+            app2.create_New_Toplevel_1(root)
+    def on_enter3(self,event):
+        messagebox.showinfo("MC-AMLP","Click OK to select the REP file for MC-AMLP.")
+        root.filename = filedialog.askopenfilename(initialdir="/", title="Select file",
+                                                   filetypes=(("rep files", "*.rep"), ("all files", "*.*")))
+        if (root.filename != ""):
+            f = open("app3repname.txt", "w+")
+            f.write(root.filename)
+            app1.create_New_Toplevel_1(root)
     def __init__(self, top=None):
         '''This class configures and populates the toplevel window.
            top is the toplevel containing window.'''
@@ -104,7 +102,6 @@ class New_Toplevel_1:
         top.resizable(False,False)
         #top.overrideredirect(1)
 
-
         self.Label1 = Label(top)
         self.Label1.place(relx=0.02, rely=0.02, height=81, width=574)
         self.Label1.configure(background="#e1e1e1")
@@ -112,7 +109,6 @@ class New_Toplevel_1:
         self.Label1.configure(foreground="black")
         self.Label1.configure(text='''ASTRA MISSILE''')
         self.Label1.configure(font='Times 30 bold')
-
 
         self.Button1 = Button(top)
         self.Button1.place(relx=0.4, rely=0.31, height=54, width=157)
@@ -126,7 +122,7 @@ class New_Toplevel_1:
         self.Button1.configure(pady="0")
         self.Button1.configure(text='''AMLP-RC''')
         self.Button1.configure(width=157)
-        self.Button1.configure(command=app1filename)
+        self.Button1.bind("<Button-1>",self.on_enter1)
 
         self.Button2 = Button(top)
         self.Button2.place(relx=0.4, rely=0.53, height=54, width=157)
@@ -140,7 +136,7 @@ class New_Toplevel_1:
         self.Button2.configure(pady="0")
         self.Button2.configure(text='''AMLP-OBC''')
         self.Button2.configure(width=157)
-        self.Button2.configure(command=app2filename)
+        self.Button2.bind("<Button-1>", self.on_enter2)
 
         self.Button3 = Button(top)
         self.Button3.place(relx=0.4, rely=0.73, height=54, width=157)
@@ -154,7 +150,7 @@ class New_Toplevel_1:
         self.Button3.configure(pady="0")
         self.Button3.configure(text='''MC-AMLP''')
         self.Button3.configure(width=157)
-        self.Button3.configure(command=app3filename)
+        self.Button3.bind("<Button-1>", self.on_enter3)
 
 
 
