@@ -5,10 +5,13 @@
 #    Jun 30, 2017 01:24:53 PM
 import sys
 
-sys.path.insert(0,sys.path[0]+'\\app2')
+sys.path.insert(0,sys.path[0]+'\\app3')
+import app3
+
+sys.path.insert(1,sys.path[1]+'\\app2')
 import app2
 
-sys.path.insert(1,sys.path[1]+'\\app1')
+sys.path.insert(2,sys.path[2]+'\\app1')
 import app1
 
 from tkinter import filedialog
@@ -82,7 +85,7 @@ def app3filename():
     if (root.filename != ""):
         f = open("app3repname.txt", "w+")
         f.write(root.filename)
-        app1.create_New_Toplevel_1(root)
+        app3.create_New_Toplevel_1(root)
 
 class New_Toplevel_1:
     def __init__(self, top=None):
