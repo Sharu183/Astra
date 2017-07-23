@@ -5,9 +5,11 @@
 #    Jun 30, 2017 01:24:53 PM
 import sys
 
-sys.path.insert(0,sys.path[0]+'\\app1')
-import app1
+sys.path.insert(0,sys.path[0]+'\\app2')
+import app2
 
+sys.path.insert(1,sys.path[1]+'\\app1')
+import app1
 
 from tkinter import filedialog
 try:
@@ -72,7 +74,7 @@ def app2filename():
     if (root.filename != ""):
         f = open("app2repname.txt", "w+")
         f.write(root.filename)
-        app1.create_New_Toplevel_1(root)
+        app2.create_New_Toplevel_1(root)
 
 def app3filename():
     root.filename = filedialog.askopenfilename(initialdir="/", title="Select file",
